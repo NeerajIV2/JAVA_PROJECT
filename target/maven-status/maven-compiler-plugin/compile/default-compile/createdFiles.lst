@@ -1,0 +1,12 @@
+com\recipe\dao\RecipeDAO.class
+com\recipe\model\Recipe.class
+com\recipe\model\Ingredient.class
+com\recipe\servlet\UserServlet.class
+com\recipe\servlet\ExportServlet.class
+com\recipe\model\Review.class
+com\recipe\model\User.class
+com\recipe\util\XMLRecipeManager.class
+com\recipe\servlet\AdminServlet.class
+com\recipe\servlet\FileUploadServlet.class
+com\recipe\util\UserManager.class
+com\recipe\servlet\RecipeServlet.class
