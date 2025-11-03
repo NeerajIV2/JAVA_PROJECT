@@ -30,7 +30,7 @@ public class FileUploadServlet extends HttpServlet {
             return;
         }
 
-        String recipeId = request.getParameter("recipeId");
+        // String recipeId = request.getParameter("recipeId");
         
         // Check if request contains multipart content
         if (!ServletFileUpload.isMultipartContent(request)) {

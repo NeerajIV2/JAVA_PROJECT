@@ -6,7 +6,7 @@ import com.recipe.model.Review;
 import org.w3c.dom.*;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
+// import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.transform.Transformer;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
@@ -14,15 +14,15 @@ import javax.xml.transform.stream.StreamResult;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
+// import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Date;
+// import java.util.Date;
 import java.util.List;
 
 public class XMLRecipeManager {
     private static final String RECIPES_FILE = "recipes.xml";
     private static final String FILE_PATH;
-    private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+    // private static final SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 
     static {
         String userDir = System.getProperty("user.dir");
